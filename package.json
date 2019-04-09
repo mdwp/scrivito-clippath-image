@@ -1,12 +1,13 @@
 {
   "name": "scrivito-clippath-image",
-  "version": "1.0.0",
-  "description": "A Twitter timeline React component/Scrivito widget for the Scrivito CMS. ",
+  "version": "1.0.4",
+  "description": "An image React component/Scrivito widget with clippath masks for the Scrivito CMS. ",
   "main": "index.js",
   "peerDependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "scrivito": "^1.5.0"
+    "scrivito": "^1.5.0",
+    "scrivito-picks": "1.0.4"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,6 @@
     "url": "https://github.com/mdwp/scrivitoclippath-image/issues"
   },
   "homepage": "https://github.com/mdwp/scrivitoclippath-image#readme",
-  "dependencies": {
-    "scrivito-picks": "1.0.4"
-  },
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",

@@ -2,7 +2,7 @@ import * as React from "react";
 import * as Scrivito from "scrivito";
 
 Scrivito.provideComponent("ClippathImageWidget", ({ widget }) => {
-  const style = widget.get("form");
+  const style = widget.get("form") || 'triangle';
 
   let image = (
     <Scrivito.ImageTag
@@ -24,7 +24,9 @@ Scrivito.provideComponent("ClippathImageWidget", ({ widget }) => {
   }
 
   return (
+
       <div className={classNames.join(" ")}>{image}</div>
+
   );
 });
 

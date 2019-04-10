@@ -1,5 +1,5 @@
 import * as Scrivito from "scrivito";
-import * as ScrivitoPicks1 from 'scrivito-picks';
+import * as ScrivitoPicks from 'scrivito-picks';
 
 
 Scrivito.provideEditingConfig("ClippathImageWidget", {
@@ -8,7 +8,7 @@ Scrivito.provideEditingConfig("ClippathImageWidget", {
   propertiesGroups: [
     {
       title: 'Clip-Path',
-      component: ScrivitoPicks1.createComponent([
+      component: ScrivitoPicks.createComponent([
 
         {
           attribute: 'form',

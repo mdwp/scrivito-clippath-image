@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdwp/scrivitoclippath-image.git"
+    "url": "git+https://github.com/mdwp/scrivito-clippath-image.git"
   },
   "keywords": [
     "scrivito",
@@ -22,9 +22,9 @@
   "author": "mdwp",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mdwp/scrivitoclippath-image/issues"
+    "url": "https://github.com/mdwp/scrivito-clippath-image/issues"
   },
-  "homepage": "https://github.com/mdwp/scrivitoclippath-image#readme",
+  "homepage": "https://github.com/mdwp/scrivito-clippath-image#readme",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
